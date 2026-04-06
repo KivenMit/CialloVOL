@@ -9,18 +9,23 @@
 ## 如果你喜欢本项目，请给一个star⭐吧~
 
 ## ✨ v1.2 新特性
+<img width="2550" height="1233" alt="ecab97a3b28dc3638ead78ccd2233eb4" src="https://github.com/user-attachments/assets/e5038e09-ed91-440b-98b3-d7c06c056c67" />
+<img width="2550" height="1233" alt="57ce074b96a82e2dd74e0e398bf22a12" src="https://github.com/user-attachments/assets/431952e3-fdae-4e6e-8b51-65b551a647d1" />
 
 ### 🎨 全新加载体验
 - **进度条**：`加载中~(∠・ω＜)⌒★` + 流光渐变动画
 - **真实进度反馈**：精确显示 0-100% 进度，告别无限转圈
 - **任务中断**：【停止加载】按钮，随时中止长时间任务
 - **智能提示**：每个阶段显示具体操作（"正在解析进程信息..." / "正在写入文件..."）
+<img width="2550" height="1233" alt="265c6bf30de9d36578e9e821eb074b5a" src="https://github.com/user-attachments/assets/d64c3940-832d-43e2-8564-fbca395dc11c" />
 
 ### 🔍 进程分析增强
 - **单进程 DMP 自动识别**：上传 .dmp 文件自动提取真实 PID 并填充进程列表
 - **完整镜像兼容**：自动运行 pslist 并填充进程分析下拉框
 - **智能降级**：MiniDump 不支持的功能（句柄表/命令行）静默隐藏，不显示错误
 - **友好错误提示**：Volatility 原始堆栈转为中文提示（"无法访问 Microsoft 符号服务器" 而非 Traceback）
+- <img width="2550" height="1233" alt="895bc83737a651453dca4f97c4174bdd" src="https://github.com/user-attachments/assets/dd1677e5-242b-4887-8460-623af6661af8" />
+<img width="2550" height="1233" alt="72407a6a31e130692a78e7492302e3aa" src="https://github.com/user-attachments/assets/90caff05-271c-47ab-92bb-042b05309d16" />
 
 ### 🌐 网络连接优化
 - **MiniDump 支持**：从内存字符串提取该进程的网络连接
@@ -33,10 +38,12 @@
 - **进度反馈**：实时显示提取进度和文件数量
 - **结果详情**：展示每个文件的大小和输出目录
 
+
 ### 🐛 核心修复
 - **扫描失败弹窗**：过滤 Volatility 正常日志（"Updating caches" / "Downloading PDB"），只报告真实错误
 - **进程分析兼容**：修复多进程完整镜像的进程列表加载和下拉框填充
 - **字段格式统一**：MiniDump 和 Volatility 返回字段统一为大写（PID/PPID/ImageFileName）
+
 
 ## 特性
 
@@ -97,6 +104,10 @@ python app.py
 ```
 
 浏览器访问：http://localhost:5000
+
+注意：本工具可以自动识别安装的vol
+<img width="2550" height="1233" alt="2ee130be6f79a5cc65d6a121958d6b59" src="https://github.com/user-attachments/assets/a0461616-9ea4-43a5-a617-cb056e53b652" />
+
 
 ## 核心功能
 
