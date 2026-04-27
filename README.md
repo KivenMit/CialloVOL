@@ -8,6 +8,13 @@
 
 ## 如果你喜欢本项目，请给一个star⭐吧~
 
+## 使用
+微信联系获取压缩包与授权文件后，双击即用
+
+注意：本工具已经打包好了vol3，且可以自动识别安装的vol
+<img width="2550" height="1233" alt="2ee130be6f79a5cc65d6a121958d6b59" src="https://github.com/user-attachments/assets/a0461616-9ea4-43a5-a617-cb056e53b652" />
+
+
 ## ✨ v1.2 新特性
 <img width="2550" height="1233" alt="ecab97a3b28dc3638ead78ccd2233eb4" src="https://github.com/user-attachments/assets/e5038e09-ed91-440b-98b3-d7c06c056c67" />
 <img width="2550" height="1233" alt="57ce074b96a82e2dd74e0e398bf22a12" src="https://github.com/user-attachments/assets/431952e3-fdae-4e6e-8b51-65b551a647d1" />
@@ -37,6 +44,7 @@
 - **精确过滤**：修复 offset 匹配逻辑，确保只提取选中文件
 - **进度反馈**：实时显示提取进度和文件数量
 - **结果详情**：展示每个文件的大小和输出目录
+- **文件可提取性分析**：自动检测哪些文件数据仍在内存中，哪些已被换页到磁盘，便于提取
 
 
 ### 🐛 核心修复
@@ -54,59 +62,6 @@
 - **文件导出**：灵活的文件导出功能，支持自定义文件名和后缀
 - **Web 界面**：暗黑主题，支持拖拽上传，实时分析
 - **扩展工具**：编码/加密、端口扫描、数据对比
-
-
-## 项目结构
-
-```
-CialloVOL1.2/
-├── app.py                     # Flask 主应用
-├── requirements.txt
-├── config.json                # Volatility 路径配置
-├── modules/
-│   ├── __init__.py
-│   ├── volatility_handler.py  # Volatility 3 命令封装 + 错误友好化
-│   ├── minidump_analyzer.py   # MiniDump 原生解析器（支持 PID 提取）
-│   ├── memory_acquisition.py  # 本机内存采集
-│   ├── file_handler.py        # 文件信息/内容读取/CSV导出
-│   ├── crypto_handler.py      # 编码解码/加密解密
-│   └── utils.py               # 端口扫描/数据对比
-├── templates/
-│   └── index.html             # 前端页面（新增进度条 + 停止按钮）
-├── static/
-│   ├── css/style.css          # 暗黑主题样式 + 加载动画
-│   └── js/main.js             # 前端逻辑（AbortController + 进度控制）
-├── uploads/                   # 上传的内存镜像
-└── output/                    # 分析结果输出
-    ├── extracted_files/       # 提取的文件
-    ├── acquired/              # 本机采集的内存转储
-    └── exported/              # 导出的文件
-```
-
-## 安装
-
-```bash
-# 安装依赖
-pip install -r requirements.txt
-
-# Windows 额外安装 Volatility 3（可选，仅完整内存镜像需要）
-进入：
-https://github.com/volatilityfoundation/volatility3/releases
-下载解压即可
-
-**注意**：MiniDump 分析功能无需安装 Volatility 3，开箱即用。
-
-## 运行
-
-```bash
-cd CialloVOL1.2
-python app.py
-```
-
-浏览器访问：http://localhost:5000
-
-注意：本工具可以自动识别安装的vol
-<img width="2550" height="1233" alt="2ee130be6f79a5cc65d6a121958d6b59" src="https://github.com/user-attachments/assets/a0461616-9ea4-43a5-a617-cb056e53b652" />
 
 
 ## 核心功能
