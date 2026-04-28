@@ -3,8 +3,9 @@
 基于 Volatility 3 的轻量化内存镜像分析平台，支持 Windows/Linux 完整内存镜像和 MiniDump 进程转储文件。
 
 ### CialloVOL1.2 最新最详细的使用演示见下方链接
- **CSDN**：https://blog.csdn.net/KivenMit/article/details/160565378?fromshare=blogdetail&sharetype=blogdetail&sharerId=160565378&sharerefer=PC&sharesource=KivenMit&sharefrom=from_link
- **微信公众号**： https://mp.weixin.qq.com/s/nOvH2iZ1JOXIcppJAJn5uQ
+- **CSDN**：https://blog.csdn.net/KivenMit/article/details/160565378?fromshare=blogdetail&sharetype=blogdetail&sharerId=160565378&sharerefer=PC&sharesource=KivenMit&sharefrom=from_link
+ 
+- **微信公众号**： https://mp.weixin.qq.com/s/nOvH2iZ1JOXIcppJAJn5uQ
 
 ### 如需获取完整版、技术支持或商务合作，请联系
  **微信**: `zjh19819621720`
