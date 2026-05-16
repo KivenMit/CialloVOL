@@ -7,13 +7,9 @@
 - **微信公众号**： https://mp.weixin.qq.com/s/nOvH2iZ1JOXIcppJAJn5uQ
 - ***演示视频***
 -进程转储，高级采集及dmp的文件内容查看，进程扫描，文件扫描等功能演示
--<video width="1000" controls>
-  <source src="https://github.com/user-attachments/assets/1f47a1eb-d19a-4aa1-8cdf-3ed520f31db7" type="video/mp4">
-</video>
+-https://github.com/KivenMit/CialloVOL/issues/1#issue-4460631606
 -raw内存镜像的文件内容查看，进程扫描，文件扫描等功能演示
--<video width="1000" controls>
-  <source src="https://github.com/user-attachments/assets/1ea3e421-eeda-45f8-b8b5-80854f777001" type="video/mp4">
-</video>
+-https://github.com/KivenMit/CialloVOL/issues/2#issue-4460681756
 
 ### 如需获取完整版、技术支持或商务合作，请联系
  **微信**: `zjh19819621720`
