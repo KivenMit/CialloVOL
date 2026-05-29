@@ -1,4 +1,4 @@
-# CialloVOL 2.0 - Memory Forensics Tool
+# CialloVOL 2.0 - AI-Powered Memory Forensics Platform
 
 基于 Volatility 3 的轻量化内存镜像分析平台，支持 Windows/Linux 完整内存镜像和 MiniDump 进程转储文件。
 
