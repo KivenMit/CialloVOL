@@ -1,17 +1,20 @@
-# CialloVOL 2.0 - AI-Powered Memory Forensics Platform
+# CialloVOL 2.4 - AI-Powered Memory Forensics Platform
 
 基于 Volatility 3 的轻量化内存镜像分析平台，支持 Windows/Linux 完整内存镜像和 MiniDump 进程转储文件。
 
-### CialloVOL2.0 新特性介绍
+### CialloVOL2.4 新特性介绍
 
 ✨ **AI智能分析** - 内置AI助手，自动识别可疑进程、网络连接和恶意文件
 
 🚀 **性能大幅优化** - 支持几十GB大文件，内存占用降低90%，检索速度提升5-10倍
 
-### CialloVOL1.2 使用演示见下方链接（2.0演示待更新）
-- **CSDN**：https://blog.csdn.net/KivenMit/article/details/160565378?fromshare=blogdetail&sharetype=blogdetail&sharerId=160565378&sharerefer=PC&sharesource=KivenMit&sharefrom=from_link 
+**vol2、3双引擎支持** - 支持vol2、3双引擎优势互补文件精准匹配成功率提升
+
+### CialloVOL2.4使用演示见下方链接（2.0演示待更新）
+- **CSDN**：https://blog.csdn.net/KivenMit/article/details/161775870?fromshare=blogdetail&sharetype=blogdetail&sharerId=161775870&sharerefer=PC&sharesource=KivenMit&sharefrom=from_link
 - **微信公众号**： https://mp.weixin.qq.com/s/nOvH2iZ1JOXIcppJAJn5uQ
 - ***演示视频***
+- （视频内容为1.2版本，仅供基础功能演示，其他功能和新版本界面参考后续图）
 -进程转储，高级采集及dmp的文件内容查看，进程扫描，文件扫描等功能演示
 
 -https://github.com/KivenMit/CialloVOL/issues/1#issue-4460631606
