@@ -10,11 +10,12 @@
 
 **vol2、3双引擎支持** - 支持vol2、3双引擎优势互补文件精准匹配成功率提升
 
-### CialloVOL2.4使用演示见下方链接（2.0演示待更新）
+### CialloVOL2.4使用演示见下方链接
 - **CSDN**：https://blog.csdn.net/KivenMit/article/details/161775870?fromshare=blogdetail&sharetype=blogdetail&sharerId=161775870&sharerefer=PC&sharesource=KivenMit&sharefrom=from_link
-- **微信公众号**： https://mp.weixin.qq.com/s/nOvH2iZ1JOXIcppJAJn5uQ
+- **微信公众号**： https://mp.weixin.qq.com/s/QYIm2QMz4lgUnGQweiSffw
 - ***演示视频***
 - （视频内容为1.2版本，仅供基础功能演示，其他功能和新版本界面参考后续图）
+
 -进程转储，高级采集及dmp的文件内容查看，进程扫描，文件扫描等功能演示
 
 -https://github.com/KivenMit/CialloVOL/issues/1#issue-4460631606
